@@ -1,0 +1,133 @@
+html {
+  overflow-y: scroll;
+}
+
+
+.name-title {
+  text-align: right;
+}
+
+site-section {
+    margin-top: 10px;
+}
+
+top-row {
+    margin-top: 10px;
+}
+
+.menu-item, .menu-title, .menu-icon {
+  padding: 1em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu-icon-smaller {
+    min-height: 64px;
+    max-height: 64px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.responsive-menu-item {
+    padding:3px;
+    padding-top:10px;
+}
+
+.active-menu-item {
+  background-color: #d6d6d6
+}
+
+.project-row {
+  padding: 0.5em;
+  display: flex;
+  flex-direction: row;
+}
+
+.project-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rounded-image {
+    border-radius:25%;
+    max-height: 250px;
+}
+
+.hidden {
+    display: none;
+}
+
+.project-controls h1{
+    font-size: 12pt;
+}
+
+.row-box {
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    margin: 5px 0 5px 0;
+    padding: 5px;
+}
+
+.name-title h1 {
+    font-size:2em;
+}
+
+h1{
+    font-size:1.5em;
+}
+
+.about-me-section {
+    padding: 5px;
+    margin: 5px;
+}
+
+.work-item h1 {
+    font-size:1.25em;
+}
+
+.work-item, .school-item, .online-course {
+    margin: 5px;
+    padding-bottom: 15px;
+}
+
+.row-box-text {
+    margin: 10px 0;
+}
+
+.contact-section {
+    margin-top: 10px;
+}
+
+.contact-option {
+    max-height:64px;
+}
+
+.contact-logo {
+    max-height: 64px;
+}
+
+h2 {
+    font-size:1em;
+    margin:0;
+    font-style: italic;
+}
+
+h3 {
+    font-size:1em;
+}
+
+@media(max-width: 767px) {
+    .menu-title {
+        padding:0;
+        padding-left:0.2em;
+    }
+
+    .menu-icon-smaller {
+    min-height: 48px;
+    }
+
+    .contact-logo {
+        max-height: 48px;
+    }
+}
