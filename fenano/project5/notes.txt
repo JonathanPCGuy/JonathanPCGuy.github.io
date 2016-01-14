@@ -1,0 +1,37 @@
+// this will eventually be loaded from local storage
+// new locations - dynamically shown based on view
+// search only for existing map markers
+initially hardcoded, later on dynamic
+later on search will also get new markers
+ability to save markers?
+
+on click of a marker do the info popup per spec
+
+to determine: does the underlying structure need bindings? it doesn't change
+so we don't need it? or do we need to do it when we do dynamic markers? TBD
+
+
+2015/09/13
+
+next steps:
+
+-click activates & centers on marker w/animation
+-click on map icon activates it (but does not center)
+-external sources -ajax calls
+
+then
+-polish UI
+-meet any other requirements needed
+
+nice to have:
+-spinner when loading
+-minification via gulp & that other stuff
+-2x external sources
+-auto locations (generic search?)
+
+
+todo (2015/09/11)
+-redirects - show where it redirected from
+-may refer to: (that landing page: need to see how to work around?)
+-popup - hidden behind other info box
+-close all option?

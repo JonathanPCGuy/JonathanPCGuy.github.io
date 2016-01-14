@@ -10,6 +10,8 @@ jlamdata.bio = function () {
 jlamdata.attribution = [
   {project: 'jQuery', license: 'MIT License', url: 'https://jquery.org', licenseUrl: 'https://jquery.org/license/'},
   {project: 'Bootstrap 3', license: 'MIT License', url: 'http://getbootstrap.com/', licenseUrl: 'https://github.com/twbs/bootstrap/blob/master/LICENSE'},
+  {project: 'Knockout', license: 'MIT License', url: 'http://knockoutjs.com/', licenseUrl: 'https://github.com/knockout/knockout/blob/master/LICENSE'},
+  {project: 'Lightbox', license: 'MIT License', url: 'http://lokeshdhakar.com/projects/lightbox2/', licenseUrl: 'https://raw.githubusercontent.com/lokesh/lightbox2/master/LICENSE'},
   {project: 'Ballicons', license: 'Creative Commons Attribution 3.0 Unported (CC BY 3.0)', url: 'http://ballicons.net/', licenseUrl: 'http://creativecommons.org/licenses/by/3.0/'},
   {project: 'Mail icon made by Simpleicon', license:"Creative Commons BY 3.0", url:'http://www.flaticon.com/authors/simpleicon', licenseUrl:'http://creativecommons.org/licenses/by/3.0/'}
 ];
@@ -32,8 +34,8 @@ jlamdata.fenanoProjects = {
             "title": "Project 1 - Layout and formatting",
             "dates": "2015",
             "description": "Basic exercise to construct a webpage to match a mockup",
-            "url": "link to live version",
-            "repo": "link to repo",
+            "url": "fenano/project1/index.html",
+            "repo": "https://github.com/JonathanPCGuy/fe-nano-project1",
 
         },
         {
@@ -41,8 +43,8 @@ jlamdata.fenanoProjects = {
             "title": "Project 2 - Online Resume",
             "dates": "2015",
             "description": "Introduction to Javascript, CSS, and DOM manipulation (JQuery). Involved created resulable functions and data sources to create an online resume.",
-            "url": "link to live version",
-            "repo": "link to repo",
+            "url": "fenano/project2/index.html",
+            "repo": "https://github.com/JonathanPCGuy/frontend-nanodegree-resume",
         },
         {
             "type": "fenano",
@@ -53,8 +55,8 @@ jlamdata.fenanoProjects = {
                 "images/fenano/project3-1.png",
                 "images/fenano/project3-2.png",
             ],
-            "url": "link to live version",
-            "repo": "link to repo",
+            "url": "fenano/project3/index.html",
+            "repo": "https://github.com/JonathanPCGuy/frontend-nanodegree-arcade-game",
             "highlight": true
         },
         {
@@ -62,8 +64,7 @@ jlamdata.fenanoProjects = {
             "title": "Project 4 - Web Site Optimization",
             "dates": "2015",
             "description": "Optimize the loading and performance of various pages, using a variety of techniques and tools",
-            "url": "link to live version",
-            "repo": "link to repo"
+            "repo": "https://github.com/JonathanPCGuy/frontend-nanodegree-mobile-portfolio"
         },
         {
             "type": "fenano",
@@ -74,8 +75,8 @@ jlamdata.fenanoProjects = {
                 "images/fenano/project5-1.png",
                 "images/fenano/project5-2.png"
             ],
-            "url": "link to live version",
-            "repo": "link to repo",
+            "url": "fenano/project5/index.html",
+            "repo": "https://github.com/JonathanPCGuy/fenano-project5",
             "highlight": true
         },
         {
@@ -83,8 +84,7 @@ jlamdata.fenanoProjects = {
             "title": "Project 6 - Unit tests",
             "dates": "2015",
             "description": "Using Jasmine, build up a suite of specs and tests against the provided web application.",
-            "url": "link to live version",
-            "repo": "link to repo",
+            "repo": "https://github.com/JonathanPCGuy/frontend-nanodegree-feedreader",
             "highlight": true
         },
 
@@ -150,7 +150,7 @@ jlamdata.workProjects = {
 
     "projects": [
         {
-            "type": "hpwork",
+            "type": "work",
             "title": "HP Touchpoint Manager",
             "dates": "January 2014 - current",
             "description": "Cloud-based Manageability solution. Worked on various client and server side components.",
@@ -162,7 +162,7 @@ jlamdata.workProjects = {
             "highlight": true
         },
         {
-            "type": "hpwork",
+            "type": "work",
             "title": "HP Client Integration Kit for Microsoft SCCM",
             "dates": "2013",
             "description": "Plugin for Microsoft's System Center Configuration Manager to enhance bare-metal image deployment for HP computers.",
@@ -299,4 +299,5 @@ jlamapp.AboutMeViewModel = function () {
 
 $(function () {
     ko.applyBindings(new jlamapp.AboutMeViewModel());
+    lightbox.init();
 });
